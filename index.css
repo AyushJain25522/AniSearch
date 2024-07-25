@@ -1,0 +1,186 @@
+body,
+html {
+  margin: 0;
+  width: 600px; /* Slightly decreased width */
+  height: 600px; /* Keeping the same height */
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header,
+.footer {
+  background-color: #2e51a2;
+}
+
+.search {
+  display: flex;
+  align-items: center; /* Align items vertically center */
+  padding: 10px;
+}
+
+.extension-icon {
+  width: 24px; /* Adjust width as needed */
+  height: 24px; /* Adjust height as needed */
+  margin-right: 10px; /* Space between icon and input */
+  border-radius: 5px;
+}
+
+.search-input {
+  flex: 1;
+  box-sizing: border-box;
+  padding: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 8px 0 0 8px;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: #ffffff;
+  font-size: 14px;
+}
+
+.search-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.search-button {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-left: transparent;
+  border-radius: 0 8px 8px 0;
+  background-color: rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
+
+.search-input:focus,
+.search-button:focus {
+  outline: none;
+}
+
+.search-image {
+  width: 16px;
+  height: 16px;
+}
+
+.loader-image {
+  width: 200px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  display: block; /* Ensure it is displayed as a block element */
+  margin: 0 auto; /* Center the loader horizontally */
+}
+
+.content {
+  position: relative;
+  overflow: auto;
+  flex: 1;
+  box-sizing: border-box;
+  padding: 10px 20px; /* Adjusted padding */
+  color: #797d7f;
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.center span {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.card {
+  display: flex;
+  box-sizing: border-box;
+  margin: 10px 0; /* Adjusted margin */
+  padding: 10px; /* Adjusted padding */
+  width: 100%;
+  max-width: 600px; /* Adjusted max width */
+  border-radius: 5px;
+  box-shadow: -3px 3px 3px 3px rgba(50, 50, 50, 0.35);
+}
+
+.card-image {
+  max-width: 200px; /* Increased width */
+  max-height: 200px; /* Increased height */
+}
+
+.card-content {
+  flex: 1;
+  padding: 10px; /* Adjusted padding */
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  color: #2e51a2; /* Link color */
+  font-weight: bold;
+  font-size: 20px; /* Adjusted font size */
+  margin: 1px 0; /* Margin for spacing */
+  text-decoration: none; /* Remove underline */
+}
+
+.card-title:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.card-date,
+.card-info {
+  color: #343434; /* Same color for all info lines */
+  font-size: 14px; /* Same font size for consistency */
+  margin: 2px 0; /* Uniform margin */
+}
+
+.card-synopsis {
+  margin: 10px 0; /* Adjusted margin */
+  color: #090909;
+  font-size: 16px;
+  padding-top: 10px; /* Space between info and synopsis */
+  border-top: 1px solid #ddd; /* Optional border for better separation */
+}
+
+.footer {
+  background-color: #2e51a2;
+  display: flex;
+  justify-content: space-between; /* Space out the items */
+  align-items: center;
+  padding: 4px; /* Adjust padding */
+}
+
+.github-icon {
+  display: flex;
+  align-items: center; /* Center icon vertically */
+}
+
+.github-icon i {
+  font-size: 24px; /* Adjust size as needed */
+  color: #ffffff; /* Icon color */
+}
+
+.footer-text {
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.footer-text a {
+  color: #ffffff;
+  text-decoration: none; /* Remove underline */
+}
+
+.footer-text a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
