@@ -1,8 +1,8 @@
 body,
 html {
   margin: 0;
-  width: 600px; /* Slightly decreased width */
-  height: 600px; /* Keeping the same height */
+  width: 600px;
+  height: 600px;
 }
 
 a {
@@ -22,14 +22,14 @@ a {
 
 .search {
   display: flex;
-  align-items: center; /* Align items vertically center */
+  align-items: center;
   padding: 10px;
 }
 
 .extension-icon {
-  width: 24px; /* Adjust width as needed */
-  height: 24px; /* Adjust height as needed */
-  margin-right: 10px; /* Space between icon and input */
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
   border-radius: 5px;
 }
 
@@ -72,10 +72,10 @@ a {
 }
 
 .loader-image {
-  width: 200px; /* Adjust the width as needed */
-  height: 200px; /* Adjust the height as needed */
-  display: block; /* Ensure it is displayed as a block element */
-  margin: 0 auto; /* Center the loader horizontally */
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 0 auto;
 }
 
 .content {
@@ -83,7 +83,7 @@ a {
   overflow: auto;
   flex: 1;
   box-sizing: border-box;
-  padding: 10px 20px; /* Adjusted padding */
+  padding: 10px 20px;
   color: #797d7f;
   font-size: 16px;
   font-family: "Open Sans", sans-serif;
@@ -104,22 +104,22 @@ a {
 .card {
   display: flex;
   box-sizing: border-box;
-  margin: 10px 0; /* Adjusted margin */
-  padding: 10px; /* Adjusted padding */
+  margin: 10px 0;
+  padding: 10px;
   width: 100%;
-  max-width: 600px; /* Adjusted max width */
+  max-width: 600px;
   border-radius: 5px;
   box-shadow: -3px 3px 3px 3px rgba(50, 50, 50, 0.35);
 }
 
 .card-image {
-  max-width: 200px; /* Increased width */
-  max-height: 200px; /* Increased height */
+  max-width: 200px;
+  max-height: 200px;
 }
 
 .card-content {
   flex: 1;
-  padding: 10px; /* Adjusted padding */
+  padding: 10px;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -127,48 +127,48 @@ a {
 }
 
 .card-title {
-  color: #2e51a2; /* Link color */
+  color: #2e51a2;
   font-weight: bold;
-  font-size: 20px; /* Adjusted font size */
-  margin: 1px 0; /* Margin for spacing */
-  text-decoration: none; /* Remove underline */
+  font-size: 20px;
+  margin: 1px 0;
+  text-decoration: none;
 }
 
 .card-title:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
 }
 
 .card-date,
 .card-info {
-  color: #343434; /* Same color for all info lines */
-  font-size: 14px; /* Same font size for consistency */
-  margin: 2px 0; /* Uniform margin */
+  color: #343434;
+  font-size: 14px;
+  margin: 2px 0;
 }
 
 .card-synopsis {
-  margin: 10px 0; /* Adjusted margin */
+  margin: 10px 0;
   color: #090909;
   font-size: 16px;
-  padding-top: 10px; /* Space between info and synopsis */
-  border-top: 1px solid #ddd; /* Optional border for better separation */
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
 }
 
 .footer {
   background-color: #2e51a2;
   display: flex;
-  justify-content: space-between; /* Space out the items */
+  justify-content: space-between;
   align-items: center;
-  padding: 4px; /* Adjust padding */
+  padding: 4px;
 }
 
 .github-icon {
   display: flex;
-  align-items: center; /* Center icon vertically */
+  align-items: center;
 }
 
 .github-icon i {
-  font-size: 24px; /* Adjust size as needed */
-  color: #ffffff; /* Icon color */
+  font-size: 24px;
+  color: #ffffff;
 }
 
 .footer-text {
@@ -178,9 +178,9 @@ a {
 
 .footer-text a {
   color: #ffffff;
-  text-decoration: none; /* Remove underline */
+  text-decoration: none;
 }
 
 .footer-text a:hover {
-  text-decoration: underline; /* Add underline on hover */
+  text-decoration: underline;
 }
