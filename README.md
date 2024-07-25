@@ -22,8 +22,6 @@ git clone https://github.com/AyushJain25522/AniSearch.git
 
 - Click the **LOAD UNPACKED** button and select the `AniSearch` directory.
 
-You can sucessfully Installed the Extensions
-
 ### It should look like this
 ![Screenshot](screenshots/Screenshot-3.png)
 
