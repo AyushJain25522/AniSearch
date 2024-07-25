@@ -13,11 +13,20 @@ To install and run this extension locally, you need:
 - [Chrome](https://www.google.com/chrome/ "Chrome") (or any other Chromium-based browser like Edge)
 - [Git](https://git-scm.com/downloads "Git") (only to clone this repository)
 
-### Installation
+## Installation
 
-To install the extension on your local machine, follow these steps:
+### Load the Extension in Chrome
 
-1. **Clone the Repository**:
+1. Open the Extension Management page by navigating to `chrome://extensions`.
+2. You can also access this page by clicking the Chrome menu (three vertical dots), then selecting **More Tools** and choosing **Extensions**.
+3. Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
+4. Click the **LOAD UNPACKED** button and select the root directory of the AniSearch folder (where `index.html` and `manifest.json` are located).
 
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/anisearch.git
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgements
+
+This project was originally cloned from [Anime-Lookup](https://github.com/kaushalmeena/anime-lookup) and has been modified to create AniSearch.
+
