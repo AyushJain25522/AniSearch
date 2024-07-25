@@ -1,6 +1,6 @@
 # AniSearch
 
-![AniSearch Logo](assets/images/logo.png)
+![AniSearch Logo](assets/images/icons/icon-128.png)
 
 Simple Browser Extension which Fetches Anime Info using Jikan API.
 
