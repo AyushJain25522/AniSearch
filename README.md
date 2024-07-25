@@ -13,7 +13,7 @@ To install and run this extension:
 - Then Clone this repo onto your computer:
 
 ```bash
-git clone https://github.com/kaushalmeena/anime-lookup.git
+git clone https://github.com/AyushJain25522/AniSearch.git
 ```
 
 - In your Browser, open the Extension Management page by clicking on the Chrome menu, hovering over **Extensions** then selecting **Manage Extensions**.
