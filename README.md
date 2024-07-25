@@ -8,7 +8,7 @@ Simple Browser Extension which Fetches Anime Info using Jikan API.
 These instructions will help you get a copy of the project up and running on your local machine for development purposes.
 
 To install and run this extension: 
-- First you need an browser like Chrome/Edge/Opera/etc.
+- First you need an browser like Chrome/Edge/FireFox/etc.
 
 - Then Clone this repo onto your computer:
 
@@ -28,8 +28,3 @@ git clone https://github.com/AyushJain25522/AniSearch.git
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgements
-
-This project was originally cloned from [Anime-Lookup](https://github.com/kaushalmeena/anime-lookup) and has been modified to create AniSearch.
-
