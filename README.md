@@ -25,7 +25,7 @@ git clone https://github.com/kaushalmeena/anime-lookup.git
 You can sucessfully Installed the Extensions
 
 ### It should look like this
-![Screenshot-1](screenshots/Screenshot-1.png) ![Screenshot-2](screenshots/Screenshot-2.png)
+![Screenshot](screenshots/Screenshot-3.png)
 
 ## License
 
