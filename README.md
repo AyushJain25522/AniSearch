@@ -7,21 +7,25 @@ Simple Browser Extension which Fetches Anime Info using Jikan API.
 
 These instructions will help you get a copy of the project up and running on your local machine for development purposes.
 
-### Requirements
+To install and run this extension: 
+- First you need an browser like Chrome/Edge/Opera/etc.
 
-To install and run this extension locally, you need:
+- Then Clone this repo onto your computer:
 
-- [Chrome](https://www.google.com/chrome/ "Chrome") (or any other Chromium-based browser like Edge)
-- [Git](https://git-scm.com/downloads "Git") (only to clone this repository)
+```bash
+git clone https://github.com/kaushalmeena/anime-lookup.git
+```
 
-## Installation
+- In your Browser, open the Extension Management page by clicking on the Chrome menu, hovering over **Extensions** then selecting **Manage Extensions**.
 
-### Load the Extension in Chrome
+- Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
 
-1. Open the Extension Management page by navigating to `chrome://extensions`.
-2. You can also access this page by clicking the Chrome menu (three vertical dots), then selecting **More Tools** and choosing **Extensions**.
-3. Enable Developer Mode by clicking the toggle switch next to **Developer mode**.
-4. Click the **LOAD UNPACKED** button and select the root directory of the AniSearch folder (where `index.html` and `manifest.json` are located).
+- Click the **LOAD UNPACKED** button and select the `AniSearch` directory.
+
+You can sucessfully Installed the Extensions
+
+### It should look like this
+!(assets/images/icons/icon-128.png) (assets/images/icons/icon-128.png)
 
 ## License
 
