@@ -30,8 +30,7 @@ git clone https://github.com/AyushJain25522/AniSearch.git
 - Click the **LOAD UNPACKED** button and select the `AniSearch` directory where 'index.html' and 'manifest.json' are located.
 
 6. That's all: The extension should now be installed. If not, you may see an error. 
-
-- Click on the extension icon [Icon](assets/images/icons/icon-32.png) to use it.
+- Click on the extension icon to use it.
 - It should look like this:-
 
 ![Screenshot](screenshots/Screenshot-1.png)
