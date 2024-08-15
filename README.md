@@ -1,4 +1,4 @@
-![AniSearch Logo](assets/images/icons/icon-128.png)
+![AniSearch Logo](src/assets/images/icons/icon-128.png)
 # AniSearch
 
 Simple Browser Extension which Fetches Anime Info from MyAnimeList using Jikan API.
@@ -27,13 +27,17 @@ git clone https://github.com/AyushJain25522/AniSearch.git
 
 5. Click the LOAD UNPACKED Button:
 
-- Click the **LOAD UNPACKED** button and select the `AniSearch` directory where 'index.html' and 'manifest.json' are located.
+- Click the **LOAD UNPACKED** button and select the `src` directory inside `AniSearch` where 'index.html' and 'manifest.json' are located.
 
 6. That's all: The extension should now be installed. If not, you may see an error. 
 - Click on the extension icon to use it.
 - It should look like this:-
 
 ![Screenshot](screenshots/Screenshot-1.png)
+
+## Acknowledgement
+
+The idea for this project was inspired by [anime-lookup](https://github.com/kaushalmeena/anime-lookup). I removed all bugs and further improved it with new features.
 
 ## License
 
